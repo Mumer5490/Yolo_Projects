@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ["Red Chili"]
+
+roboflow:
+  workspace: matavee
+  project: chili-s9umj
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/matavee/chili-s9umj/dataset/1
